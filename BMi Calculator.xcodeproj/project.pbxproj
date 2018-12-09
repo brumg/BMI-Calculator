@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5256FAD21BBDE3B0032B527 /* BMIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5256FAC21BBDE3B0032B527 /* BMIModel.swift */; };
+		F5256FAF21BBF3E50032B527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5256FAE21BBF3E50032B527 /* Assets.xcassets */; };
 		F5E3FE8D21614318008EAA36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3FE8C21614318008EAA36 /* AppDelegate.swift */; };
 		F5E3FE8F21614318008EAA36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3FE8E21614318008EAA36 /* ViewController.swift */; };
 		F5E3FE9221614318008EAA36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E3FE9021614318008EAA36 /* Main.storyboard */; };
-		F5E3FE942161431A008EAA36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E3FE932161431A008EAA36 /* Assets.xcassets */; };
 		F5E3FE972161431A008EAA36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E3FE952161431A008EAA36 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F5E3FE8921614318008EAA36 /* IBM Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBM Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5256FAC21BBDE3B0032B527 /* BMIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIModel.swift; sourceTree = "<group>"; };
+		F5256FAE21BBF3E50032B527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5E3FE8921614318008EAA36 /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E3FE8C21614318008EAA36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5E3FE8E21614318008EAA36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F5E3FE9121614318008EAA36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F5E3FE932161431A008EAA36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5E3FE962161431A008EAA36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5E3FE982161431A008EAA36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,7 +40,7 @@
 		F5E3FE8021614318008EAA36 = {
 			isa = PBXGroup;
 			children = (
-				F5E3FE8B21614318008EAA36 /* IBM Calculator */,
+				F5E3FE8B21614318008EAA36 /* BMI Calculator */,
 				F5E3FE8A21614318008EAA36 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +48,31 @@
 		F5E3FE8A21614318008EAA36 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5E3FE8921614318008EAA36 /* IBM Calculator.app */,
+				F5E3FE8921614318008EAA36 /* BMI Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F5E3FE8B21614318008EAA36 /* IBM Calculator */ = {
+		F5E3FE8B21614318008EAA36 /* BMI Calculator */ = {
 			isa = PBXGroup;
 			children = (
 				F5E3FE8C21614318008EAA36 /* AppDelegate.swift */,
 				F5E3FE8E21614318008EAA36 /* ViewController.swift */,
+				F5256FAC21BBDE3B0032B527 /* BMIModel.swift */,
 				F5E3FE9021614318008EAA36 /* Main.storyboard */,
-				F5E3FE932161431A008EAA36 /* Assets.xcassets */,
 				F5E3FE952161431A008EAA36 /* LaunchScreen.storyboard */,
+				F5256FAE21BBF3E50032B527 /* Assets.xcassets */,
 				F5E3FE982161431A008EAA36 /* Info.plist */,
 			);
-			path = "IBM Calculator";
+			path = "BMI Calculator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F5E3FE8821614318008EAA36 /* IBM Calculator */ = {
+		F5E3FE8821614318008EAA36 /* BMI Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5E3FE9B2161431A008EAA36 /* Build configuration list for PBXNativeTarget "IBM Calculator" */;
+			buildConfigurationList = F5E3FE9B2161431A008EAA36 /* Build configuration list for PBXNativeTarget "BMI Calculator" */;
 			buildPhases = (
 				F5E3FE8521614318008EAA36 /* Sources */,
 				F5E3FE8621614318008EAA36 /* Frameworks */,
@@ -79,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "IBM Calculator";
+			name = "BMI Calculator";
 			productName = "IBM Calculator";
-			productReference = F5E3FE8921614318008EAA36 /* IBM Calculator.app */;
+			productReference = F5E3FE8921614318008EAA36 /* BMI Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F5E3FE8421614318008EAA36 /* Build configuration list for PBXProject "IBM Calculator" */;
+			buildConfigurationList = F5E3FE8421614318008EAA36 /* Build configuration list for PBXProject "BMi Calculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F5E3FE8821614318008EAA36 /* IBM Calculator */,
+				F5E3FE8821614318008EAA36 /* BMI Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -123,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5E3FE972161431A008EAA36 /* LaunchScreen.storyboard in Resources */,
-				F5E3FE942161431A008EAA36 /* Assets.xcassets in Resources */,
+				F5256FAF21BBF3E50032B527 /* Assets.xcassets in Resources */,
 				F5E3FE9221614318008EAA36 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +140,7 @@
 			files = (
 				F5E3FE8F21614318008EAA36 /* ViewController.swift in Sources */,
 				F5E3FE8D21614318008EAA36 /* AppDelegate.swift in Sources */,
+				F5256FAD21BBDE3B0032B527 /* BMIModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F5E3FE8421614318008EAA36 /* Build configuration list for PBXProject "IBM Calculator" */ = {
+		F5E3FE8421614318008EAA36 /* Build configuration list for PBXProject "BMi Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5E3FE992161431A008EAA36 /* Debug */,
@@ -324,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5E3FE9B2161431A008EAA36 /* Build configuration list for PBXNativeTarget "IBM Calculator" */ = {
+		F5E3FE9B2161431A008EAA36 /* Build configuration list for PBXNativeTarget "BMI Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5E3FE9C2161431A008EAA36 /* Debug */,
